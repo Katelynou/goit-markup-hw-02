@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -19,24 +19,32 @@ a {
     sans-serif;
     font-size: 18px;
     font-weight: 700;
+    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .page-nav .page-logo-accent-first {
-    color: #4D5AE5;
-}
-
-.page-nav .page-logo-accent-second {
     color: #2E2F42;
 }
 
-.nav-links {
+.nav-links .nav-links-studio,
+.nav-links .nav-links-portfolio,
+.nav-links .nav-links-contacts
+{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.nav-links:hover, 
-.nav-links:focus
+.nav-links .nav-links-studio:hover,
+.nav-links .nav-links-studio:focus,
+.nav-links .nav-links-portfolio:hover,
+.nav-links .nav-links-portfolio:focus,
+.nav-links .nav-links-contacts:hover,
+.nav-links .nav-links-contacts:focus
 {
     color: #404BBF;
 }
