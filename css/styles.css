@@ -28,9 +28,7 @@ a {
     color: #2E2F42;
 }
 
-.nav-links .nav-links-studio,
-.nav-links .nav-links-portfolio,
-.nav-links .nav-links-contacts
+.nav-links .nav-links-main
 {
     color: #2E2F42;
     font-size: 16px;
@@ -39,12 +37,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.nav-links .nav-links-studio:hover,
-.nav-links .nav-links-studio:focus,
-.nav-links .nav-links-portfolio:hover,
-.nav-links .nav-links-portfolio:focus,
-.nav-links .nav-links-contacts:hover,
-.nav-links .nav-links-contacts:focus
+.nav-links .nav-links-main:hover,
+.nav-links .nav-links-main:focus
 {
     color: #404BBF;
 }
@@ -52,6 +46,12 @@ a {
 .nav-links:active {
     color: #404BBF;
     text-decoration: underline;
+}
+
+.address {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-links:hover,
